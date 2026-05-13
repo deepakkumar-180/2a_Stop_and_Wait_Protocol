@@ -33,6 +33,7 @@ while True:
 conn.close()
 ```
 <h3>client side</h3>
+
 ```
 import socket
 
@@ -49,7 +50,9 @@ for i in range(n):
     print("Received:", ack)
 
 s.close()
+
 ```
+
 ## OUTPUT
 <img width="861" height="870" alt="Screenshot 2026-05-13 151751" src="https://github.com/user-attachments/assets/513e9c32-7668-48a6-94ff-cebf08b703b1" />
 
